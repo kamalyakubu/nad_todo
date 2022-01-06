@@ -27,6 +27,8 @@ const app = express();
 //      res.send('Welcome back Express');
 //  })
 
+//Getting all todos
+//localhost:3000/todos/todos
 router.route("/todos")
 .get( async (req, res) => {
      
@@ -47,7 +49,7 @@ router.route("/todos")
 
 
 //create a todo
-
+//localhost:3000/todos/todo
 router.route("/todo").post(async (req, res) => {
   const { title, description, date_time } = req.body;
 

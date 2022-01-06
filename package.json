@@ -1,0 +1,23 @@
+{
+  "name": "amazing_todo_app",
+  "version": "1.0.0",
+  "description": "a todo api serving todo data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/unit/",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "nad",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
